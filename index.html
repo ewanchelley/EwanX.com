@@ -255,14 +255,14 @@
   <header>
     <a class="logo" href="/">Ewan<span>X</span></a>
     <nav>
-      <a class="tab-link" data-tab="ai" href="#ai">AI</a>
       <a class="tab-link" data-tab="apps" href="#apps">App Store</a>
-      <a href="mailto:keewee.apps@gmail.com">Contact</a>
+      <a class="tab-link" data-tab="ai" href="#ai">AI</a>
+      <a href="mailto:support@ewanx.com">Contact</a>
     </nav>
   </header>
 
   <!-- ── AI tab ── -->
-  <main class="tab-panel" id="tab-ai">
+  <main class="tab-panel" id="tab-ai" hidden>
     <section class="hero">
       <h1>AI <em>&amp;</em> LLM Evals</h1>
       <p>Projects and experiments in evaluating large language models.</p>
@@ -310,7 +310,37 @@
   </main>
 
   <!-- ── App Store tab ── -->
-  <main class="tab-panel" id="tab-apps" hidden>
+  <main class="tab-panel" id="tab-apps">
+
+  <!-- ── Borderline ── -->
+  <section class="app-section" id="borderline">
+    <div class="app-layout">
+      <div class="app-info">
+        <h2>Borderline</h2>
+        <p>Two countries, one question &mdash; tap the one that answers it. Flags,
+          capitals, borders, populations and areas across all 193 UN member states,
+          getting harder the longer you last. Every correct answer adds to a
+          collection you build one country at a time.</p>
+        <div class="app-actions">
+          <a class="btn-store" href="https://apps.apple.com/app/idPLACEHOLDER" target="_blank" rel="noopener">
+            <img src="/images/apple_logo.png" alt="" width="16" height="16" style="object-fit: contain; flex-shrink: 0;">
+            App Store
+          </a>
+          <div class="app-links">
+            <a href="/borderline/privacypolicy">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="screenshots">
+        <img src="/borderline/screenshots/1.png" alt="Borderline screenshot 1">
+        <img src="/borderline/screenshots/2.png" alt="Borderline screenshot 2">
+        <img src="/borderline/screenshots/3.png" alt="Borderline screenshot 3">
+        <img src="/borderline/screenshots/4.png" alt="Borderline screenshot 4">
+        <img src="/borderline/screenshots/5.png" alt="Borderline screenshot 5">
+        <img src="/borderline/screenshots/6.png" alt="Borderline screenshot 6">
+      </div>
+    </div>
+  </section>
 
   <!-- ── Great Minds ── -->
   <section class="app-section" id="greatminds">
@@ -394,7 +424,7 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;">&copy; <span id="year"></span> EwanX.com &mdash; <a href="mailto:keewee.apps@gmail.com">keewee.apps@gmail.com</a></p>
+    <p style="margin-bottom: 0.5rem;">&copy; <span id="year"></span> EwanX.com &mdash; <a href="mailto:support@ewanx.com">support@ewanx.com</a></p>
   </footer>
 
   <script>
@@ -410,7 +440,7 @@
       });
     }
     function tabFromHash() {
-      return location.hash === '#apps' ? 'apps' : 'ai';
+      return location.hash === '#ai' ? 'ai' : 'apps';
     }
     window.addEventListener('hashchange', () => showTab(tabFromHash()));
     showTab(tabFromHash());
