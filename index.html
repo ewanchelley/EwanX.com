@@ -4,258 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EwanX</title>
+  <meta name="description" content="Apps and LLM evaluation projects by Ewan Chelley.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EwanX">
+  <meta property="og:title" content="EwanX">
+  <meta property="og:description" content="Apps and LLM evaluation projects by Ewan Chelley.">
+  <meta property="og:url" content="https://ewanx.com/">
+  <meta property="og:image" content="https://ewanx.com/images/og-home.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="/images/icon_solo_brain_64.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg: #121212;
-      --surface: #1e1e1e;
-      --border: #2a2a2a;
-      --text: #ffffff;
-      --muted: #888;
-      --accent: #fff973;
-    }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Rubik', sans-serif;
-      font-size: 1.125rem;
-      line-height: 1.6;
-      min-height: 100vh;
-    }
-
-    /* ── Header ── */
-    header {
-      padding: 1.5rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      background: rgba(18, 18, 18, 0.9);
-      backdrop-filter: blur(8px);
-      z-index: 100;
-    }
-
-    .logo {
-      font-size: 1.35rem;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      text-decoration: none;
-      color: var(--text);
-    }
-
-    .logo span {
-      color: var(--accent);
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 1.75rem;
-    }
-
-    nav a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: color 0.15s;
-    }
-
-    nav a:hover { color: var(--text); }
-
-    nav a.tab-link.active {
-      color: var(--accent);
-      font-weight: 700;
-    }
-
-    .tab-panel[hidden] { display: none; }
-
-    /* ── Hero ── */
-    .hero {
-      text-align: center;
-      padding: 6rem 2rem 5rem;
-      max-width: 640px;
-      margin: 0 auto;
-    }
-
-    .hero h1 {
-      font-size: clamp(2.5rem, 6vw, 4rem);
-      font-weight: 800;
-      letter-spacing: -0.04em;
-      line-height: 1.1;
-      margin-bottom: 1.25rem;
-    }
-
-    .hero h1 em {
-      font-style: normal;
-      color: var(--accent);
-    }
-
-    .hero p {
-      color: var(--muted);
-      font-size: 1.1rem;
-    }
-
-    /* ── App sections ── */
-    .app-section {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 5rem 2rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .app-section:last-of-type {
-      border-bottom: 1px solid var(--border);
-    }
-
-    .app-layout {
-      display: flex;
-      flex-direction: column;
-      gap: 3rem;
-    }
-
-    .app-info {
-      max-width: 560px;
-    }
-
-    .app-tag {
-      display: inline-block;
-      color: var(--accent);
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 1.25rem;
-    }
-
-    .app-info h2 {
-      font-size: clamp(2rem, 4vw, 2.75rem);
-      font-weight: 800;
-      letter-spacing: -0.04em;
-      line-height: 1.15;
-      margin-bottom: 1rem;
-    }
-
-    .app-info p {
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-size: 1rem;
-    }
-
-    .app-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      align-items: center;
-    }
-
-    .btn-store {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: var(--accent);
-      color: #121212;
-      font-family: 'Rubik', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 700;
-      padding: 0.65rem 1.25rem;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: opacity 0.15s;
-    }
-
-    .btn-store:hover { opacity: 0.85; }
-
-    .app-links {
-      display: flex;
-      gap: 1rem;
-    }
-
-    .app-links a {
-      color: var(--muted);
-      font-size: 0.85rem;
-      text-decoration: none;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1px;
-      transition: color 0.15s, border-color 0.15s;
-    }
-
-    .app-links a:hover {
-      color: var(--text);
-      border-color: var(--text);
-    }
-
-    /* ── Project images ── */
-    .project-image {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 0.75rem;
-    }
-
-    .project-image img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 6px;
-    }
-
-    .project-image.terminal {
-      background: var(--surface);
-    }
-
-    /* ── Screenshots ── */
-    .screenshots {
-      display: flex;
-      gap: 1rem;
-      align-items: flex-start;
-      padding: 1rem 0;
-    }
-
-    .screenshots img {
-      width: 160px;
-      flex-shrink: 0;
-      border-radius: 18px;
-      border: 1px solid var(--border);
-      object-fit: cover;
-    }
-
-
-    /* ── Footer ── */
-    footer {
-      padding: 3rem 2rem;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.875rem;
-    }
-
-    footer a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
-    footer a:hover { color: var(--text); }
-
-    /* ── Responsive ── */
-    @media (max-width: 680px) {
-      .carousel img { width: 140px; }
-    }
-  </style>
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
   <header>
     <a class="logo" href="/">Ewan<span>X</span></a>
     <nav>
-      <a class="tab-link" data-tab="apps" href="#apps">App Store</a>
+      <a class="tab-link" data-tab="apps" href="#apps">Apps</a>
       <a class="tab-link" data-tab="ai" href="#ai">AI</a>
       <a href="mailto:support@ewanx.com">Contact</a>
     </nav>
@@ -309,118 +79,26 @@
     </section>
   </main>
 
-  <!-- ── App Store tab ── -->
+  <!-- ── Apps tab ── -->
   <main class="tab-panel" id="tab-apps">
-
-  <!-- ── Borderline ── -->
-  <section class="app-section" id="borderline">
-    <div class="app-layout">
-      <div class="app-info">
-        <h2>Borderline</h2>
-        <p>Two countries, one question &mdash; tap the one that answers it. Flags,
-          capitals, borders, populations and areas across all 193 UN member states,
-          getting harder the longer you last. Every correct answer adds to a
-          collection you build one country at a time.</p>
-        <div class="app-actions">
-          <a class="btn-store" href="https://apps.apple.com/app/idPLACEHOLDER" target="_blank" rel="noopener">
-            <img src="/images/apple_logo.png" alt="" width="16" height="16" style="object-fit: contain; flex-shrink: 0;">
-            App Store
-          </a>
-          <div class="app-links">
-            <a href="/borderline/privacypolicy">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
-      <div class="screenshots">
-        <img src="/borderline/screenshots/1.png" alt="Borderline screenshot 1">
-        <img src="/borderline/screenshots/2.png" alt="Borderline screenshot 2">
-        <img src="/borderline/screenshots/3.png" alt="Borderline screenshot 3">
-        <img src="/borderline/screenshots/4.png" alt="Borderline screenshot 4">
-        <img src="/borderline/screenshots/5.png" alt="Borderline screenshot 5">
-        <img src="/borderline/screenshots/6.png" alt="Borderline screenshot 6">
-      </div>
+    <div class="app-grid">
+      <a class="app-card" href="/borderline">
+        <img src="/images/icons/borderline.png" alt="" width="360" height="360">
+        <span>Borderline</span>
+      </a>
+      <a class="app-card" href="/greatminds">
+        <img src="/images/icons/greatminds.png" alt="" width="360" height="360">
+        <span>Great Minds</span>
+      </a>
+      <a class="app-card" href="/dailyprotein">
+        <img src="/images/icons/dailyprotein.png" alt="" width="360" height="360">
+        <span>Daily Protein</span>
+      </a>
+      <a class="app-card" href="/nat5maths">
+        <img src="/images/icons/nat5maths.png" alt="" width="360" height="360">
+        <span>National 5 Maths</span>
+      </a>
     </div>
-  </section>
-
-  <!-- ── Great Minds ── -->
-  <section class="app-section" id="greatminds">
-    <div class="app-layout">
-      <div class="app-info">
-        <h2>Great Minds</h2>
-        <p>Think you know your friends? Prove it. Each round, one player ranks items
-          according to the prompt, and everyone else tries to predict their order.
-          Online multiplayer or pass-and-play on one device, for 2&ndash;6 players.</p>
-        <div class="app-actions">
-          <a class="btn-store" href="https://apps.apple.com/app/id6753956058" target="_blank" rel="noopener">
-            <img src="/images/apple_logo.png" alt="" width="16" height="16" style="object-fit: contain; flex-shrink: 0;">
-            App Store
-          </a>
-          <div class="app-links">
-            <a href="/greatminds/privacypolicy">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
-      <div class="screenshots">
-        <img src="/greatminds/screenshots/1.png" alt="Great Minds screenshot 1">
-        <img src="/greatminds/screenshots/2.png" alt="Great Minds screenshot 2">
-        <img src="/greatminds/screenshots/3.png" alt="Great Minds screenshot 3">
-        <img src="/greatminds/screenshots/4.png" alt="Great Minds screenshot 4">
-        <img src="/greatminds/screenshots/5.png" alt="Great Minds screenshot 5">
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Daily Protein ── -->
-  <section class="app-section" id="dailyprotein">
-    <div class="app-layout">
-      <div class="app-info">
-        <h2>Daily Protein</h2>
-        <p>Track your protein quickly &mdash; no clutter, no hassle. Log food in
-          seconds, monitor your intake, and build consistent habits, all without
-          needing an account or subscription.</p>
-        <div class="app-actions">
-          <a class="btn-store" href="https://apps.apple.com/app/daily-protein/id6744659498" target="_blank" rel="noopener">
-            <img src="/images/apple_logo.png" alt="" width="16" height="16" style="object-fit: contain; flex-shrink: 0;">
-            App Store
-          </a>
-        </div>
-      </div>
-      <div class="screenshots">
-        <img src="/dailyprotein/screenshots/1.png" alt="Daily Protein screenshot 1">
-        <img src="/dailyprotein/screenshots/2.png" alt="Daily Protein screenshot 2">
-        <img src="/dailyprotein/screenshots/3.png" alt="Daily Protein screenshot 3">
-        <img src="/dailyprotein/screenshots/4.png" alt="Daily Protein screenshot 4">
-        <img src="/dailyprotein/screenshots/5.png" alt="Daily Protein screenshot 5">
-      </div>
-    </div>
-  </section>
-
-  <!-- ── National 5 Maths ── -->
-  <section class="app-section" id="nat5maths">
-    <div class="app-layout">
-      <div class="app-info">
-        <h2>National 5 Maths</h2>
-        <p>Prepare for your National 5 Maths exam. Revise by topic, shuffle questions
-          across difficulty levels, and practise with exam-style questions.</p>
-        <div class="app-actions">
-          <a class="btn-store" href="https://apps.apple.com/gb/app/national-5-maths/id1643511000" target="_blank" rel="noopener">
-            <img src="/images/apple_logo.png" alt="" width="16" height="16" style="object-fit: contain; flex-shrink: 0;">
-            App Store
-          </a>
-        </div>
-      </div>
-      <div class="screenshots">
-        <img src="/nat5maths/screenshots/1.png" alt="National 5 Maths screenshot 1">
-        <img src="/nat5maths/screenshots/2.png" alt="National 5 Maths screenshot 2">
-        <img src="/nat5maths/screenshots/3.png" alt="National 5 Maths screenshot 3">
-        <img src="/nat5maths/screenshots/4.png" alt="National 5 Maths screenshot 4">
-        <img src="/nat5maths/screenshots/5.png" alt="National 5 Maths screenshot 5">
-      </div>
-    </div>
-  </section>
-
-  <!-- Add more app sections here following the same pattern -->
-
   </main>
 
   <footer>
