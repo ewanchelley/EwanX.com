@@ -185,11 +185,11 @@ nav a.tab-link.active {
 
 /* ── App grid (home) ── */
 .app-grid {
-  max-width: 640px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 4rem 2rem 5rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 3rem 2.5rem;
 }
 
@@ -232,11 +232,14 @@ nav a.tab-link.active {
   padding: 4rem 2rem 5rem;
 }
 
+/* Either a bare <p>, or a wrapper when the blurb has several parts. */
 .app-blurb {
   max-width: 560px;
   color: var(--muted);
   font-size: 1rem;
 }
+
+.app-blurb p + p { margin-top: 1rem; }
 
 .app-heading {
   display: flex;
@@ -349,6 +352,9 @@ footer a:hover { color: var(--text); }
 
 /* ── Responsive ── */
 @media (max-width: 680px) {
+  /* Three icons across is too tight on a phone — drop to two. */
+  .app-grid { grid-template-columns: repeat(2, 1fr); }
+
   /* Too narrow to fit them all — fixed width, swipe to scroll. */
   .screenshots {
     overflow-x: auto;
