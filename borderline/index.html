@@ -3,67 +3,172 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Borderline &mdash; EwanX</title>
-  <meta name="description" content="Two countries, one question. Flags, capitals, borders, populations and areas across all 193 UN member states.">
+  <title>Borderline | EwanX</title>
+  <meta name="description" content="Two countries, one question. Tap the one that answers it. Two countries, one question.">
+  <link rel="canonical" href="https://ewanx.com/borderline/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EwanX">
-  <meta property="og:title" content="Borderline">
-  <meta property="og:description" content="Two countries, one question. Flags, capitals, borders, populations and areas across all 193 UN member states.">
-  <meta property="og:url" content="https://ewanx.com/borderline">
+  <meta property="og:title" content="Borderline | EwanX">
+  <meta property="og:description" content="Two countries, one question. Tap the one that answers it. Two countries, one question.">
+  <meta property="og:url" content="https://ewanx.com/borderline/">
   <meta property="og:image" content="https://ewanx.com/images/icons/borderline.png">
-  <meta property="og:image:width" content="360">
-  <meta property="og:image:height" content="360">
   <meta name="twitter:card" content="summary">
-  <link rel="icon" type="image/png" href="/images/icon_solo_brain_64.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-  <header>
-    <a class="logo" href="/">Ewan<span>X</span></a>
-    <nav>
-      <a href="/#apps">Apps</a>
-      <a href="/#ai">AI</a>
-      <a href="mailto:support@ewanx.com">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Ewan<span>X</span></a>
+    </div>
   </header>
 
-  <main class="app-page">
-    <div class="app-layout">
-      <div class="app-heading">
-        <img class="app-icon" src="/images/icons/borderline.png" alt="" width="360" height="360">
-        <h1>Borderline</h1>
-        <a class="btn-badge" href="https://apps.apple.com/app/apple-store/id6797909629?pt=125562025&amp;ct=ewanx_web&amp;mt=8" target="_blank" rel="noopener">
-          <img src="/images/app-store-badge.svg" alt="Download on the App Store" width="120" height="40">
-        </a>
+  <main>
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#apps">Apps</a><span>/</span><b>Borderline</b></nav>
+
+      <section class="app-hero">
+        <div class="app-hero-main">
+          <img src="/images/icons/borderline.png" alt="" width="360" height="360">
+          <div class="app-hero-text">
+            <h1>Borderline</h1>
+            <p class="tagline">Two countries, one question. Tap the one that answers it.</p>
+            <div class="chips"><span class="chip">Geography quiz</span><span class="chip">No ads</span><span class="chip">Free to play</span></div>
+          </div>
+        </div>
+        <div class="app-hero-aside">
+          <a class="badge" href="https://apps.apple.com/app/apple-store/id6797909629?pt=125562025&amp;ct=ewanx_web&amp;mt=8" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Borderline on the App Store" width="120" height="40"></a>
+          <a class="m" href="#support">Need help? Support is below &darr;</a>
+        </div>
+      </section>
+
+      <div class="screens-wrap">
+        <div class="screens">
+        <img src="/borderline/screenshots/1.png" alt="Two countries, one answer" >
+        <img src="/borderline/screenshots/2.png" alt="Collect all 193 countries" >
+        <img src="/borderline/screenshots/3.png" alt="One mistake and it’s over" >
+        <img src="/borderline/screenshots/4.png" alt="More ways to play" >
+        <img src="/borderline/screenshots/5.png" alt="Race the clock in Rush Mode"  loading="lazy">
+        <img src="/borderline/screenshots/6.png" alt="Learn something every round"  loading="lazy">
+        </div>
+        <div class="screens-nav">
+          <button type="button" data-dir="-1" aria-label="Previous screenshots"><svg class="icon flip" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+          <button type="button" data-dir="1" aria-label="Next screenshots"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+        </div>
       </div>
-      <div class="screenshots">
-        <img src="/borderline/screenshots/1.png" alt="Borderline screenshot 1">
-        <img src="/borderline/screenshots/2.png" alt="Borderline screenshot 2">
-        <img src="/borderline/screenshots/3.png" alt="Borderline screenshot 3">
-        <img src="/borderline/screenshots/4.png" alt="Borderline screenshot 4">
-        <img src="/borderline/screenshots/5.png" alt="Borderline screenshot 5">
-        <img src="/borderline/screenshots/6.png" alt="Borderline screenshot 6">
-      </div>
-      <p class="app-blurb">Two countries, one question &mdash; tap the one that answers it. Flags,
-        capitals, borders, populations and areas across all 193 UN member states,
-        getting harder the longer you last. Every correct answer adds to a
-        collection you build one country at a time.</p>
-      <div class="app-links">
-        <a href="/borderline/privacypolicy">Privacy Policy</a>
-      </div>
+
+      <section class="about-grid">
+        <div class="about-copy">
+          <span class="eyebrow">About the app</span>
+          <p class="lede">Two countries, one question. Tap the one that answers it. Flags, capitals, borders, populations and areas across all 193 UN member states, getting harder the longer you last. Every correct answer adds to a collection you build one country at a time.</p>
+          <div class="features">
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+              <h3>193 countries</h3>
+              <p>Every UN member state, with questions drawn from real data.</p>
+            </div>
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 20V9l6-5 6 5v11"/><path d="M10 20v-5h4v5"/></svg>
+              <h3>Build your collection</h3>
+              <p>Each correct answer adds an entry to your collection. Collect all 193 countries.</p>
+            </div>
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg>
+              <h3>More ways to play</h3>
+              <p>Try Rush mode against the clock, or Hardmode where there are no easy questions.</p>
+            </div>
+          </div>
+        </div>
+        <aside class="card details">
+          <div class="row"><span class="m">Developer</span><span>EwanX</span></div>
+          <div class="row"><span class="m">Category</span><span>Games</span></div>
+          <div class="row"><span class="m">Price</span><span>Free, with in-app purchase</span></div>
+          <div class="row"><span class="m">Accounts</span><span>None</span></div>
+          <div class="row"><span class="m">Ads</span><span>None</span></div>
+          <div class="row"><span class="m">Age rating</span><span>4+</span></div>
+          <div class="built">
+            <span class="label">Built with</span>
+            <div class="chips"><span class="chip">SwiftUI</span><span class="chip">PostHog</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="support" id="support">
+        <div>
+          <span class="eyebrow">Support</span>
+          <h2>Help with Borderline</h2>
+        </div>
+        <div class="support-cards">
+          <div class="card">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <h3>Contact support</h3>
+            <p>If you spot anything that's wrong, or want to suggest an improvement, please get in touch. Mention Borderline in your email.</p>
+            <button type="button" class="copy" data-copy="support@ewanx.com" aria-label="Copy support@ewanx.com to the clipboard"><span class="copy-text">support@ewanx.com</span><span class="copy-done">Copied</span><svg class="icon copy-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          </div>
+          <div class="card">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Privacy policy</h3>
+            <p>What Borderline collects, who it is shared with, and how to delete it.</p>
+            <a class="link" href="/borderline/privacypolicy/">Read the policy &rarr;</a>
+          </div>
+        </div>
+      </section>
+      <div class="page-end"></div>
     </div>
   </main>
 
-  <footer>
-    <p style="margin-bottom: 0.5rem;">&copy; <span id="year"></span> EwanX.com &mdash; <a href="mailto:support@ewanx.com">support@ewanx.com</a></p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">Ewan<span>X</span></a>
+          <p>Tools and games for iOS.</p>
+        </div>
+        <div class="footer-col">
+          <span class="label">Apps</span>
+          <a href="/greatminds/">Great Minds</a>
+          <a href="/nat5maths/">National 5 Maths</a>
+          <a href="/borderline/">Borderline</a>
+          <a href="/dailyprotein/">Daily Protein</a>
+          <a href="/whichfirst/">Which Came First</a>
+        </div>
+        <div class="footer-col">
+          <span class="label">EwanX</span>
+          <a href="/about/">About</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> EwanX</span>
+        <span>support@ewanx.com</span>
+        <span class="mono">ewanx.com</span>
+      </div>
+    </div>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+          btn.classList.add('copied');
+          setTimeout(function () { btn.classList.remove('copied'); }, 1600);
+        });
+      });
+    });
+    document.querySelectorAll('.screens-wrap').forEach(function (wrap) {
+      var strip = wrap.querySelector('.screens');
+      wrap.querySelectorAll('[data-dir]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          strip.scrollBy({ left: strip.clientWidth * 0.7 * Number(b.dataset.dir), behavior: 'smooth' });
+        });
+      });
+    });
   </script>
 </body>
 </html>

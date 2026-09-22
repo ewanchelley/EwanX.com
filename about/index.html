@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | EwanX</title>
+  <meta name="description" content="EwanX is a one-person iOS studio run by Ewan Chelley.">
+  <link rel="canonical" href="https://ewanx.com/about/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EwanX">
+  <meta property="og:title" content="About | EwanX">
+  <meta property="og:description" content="EwanX is a one-person iOS studio run by Ewan Chelley.">
+  <meta property="og:url" content="https://ewanx.com/about/">
+  <meta property="og:image" content="https://ewanx.com/images/ewanx-icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Ewan<span>X</span></a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="about-page">
+        <div class="about-intro">
+          <span class="eyebrow">About</span>
+          <h1>Apps by Ewan<span class="x">X</span></h1>
+          <p>EwanX is run by Ewan Chelley, a mobile software engineer. Every app is designed, built, published and supported by me.</p>
+          <div class="hero-actions" style="justify-content: flex-start;">
+            <a class="btn-ghost" href="https://www.linkedin.com/in/ewan-chelley/" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>LinkedIn</a>
+          </div>
+        </div>
+        <div class="about-side">
+          <div class="card">
+            <span class="label">Published apps</span>
+            <div class="app-list">
+            <a href="/greatminds/"><img src="/images/icons/greatminds.png" alt="" width="360" height="360">Great Minds</a>
+            <a href="/nat5maths/"><img src="/images/icons/nat5maths.png" alt="" width="360" height="360">National 5 Maths</a>
+            <a href="/borderline/"><img src="/images/icons/borderline.png" alt="" width="360" height="360">Borderline</a>
+            <a href="/dailyprotein/"><img src="/images/icons/dailyprotein.png" alt="" width="360" height="360">Daily Protein</a>
+            <a href="/whichfirst/"><img src="/images/icons/whichfirst.png" alt="" width="360" height="360">Which Came First</a>
+            </div>
+          </div>
+          <div class="card">
+            <span class="label">App support</span>
+            <button type="button" class="copy" data-copy="support@ewanx.com" aria-label="Copy support@ewanx.com to the clipboard"><span class="copy-text">support@ewanx.com</span><span class="copy-done">Copied</span><svg class="icon copy-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+            <span class="m" style="font-size: 14px;">Please get in touch with any support requests.</span>
+          </div>
+        </div>
+      </section>
+      <div class="page-end"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">Ewan<span>X</span></a>
+          <p>Tools and games for iOS.</p>
+        </div>
+        <div class="footer-col">
+          <span class="label">Apps</span>
+          <a href="/greatminds/">Great Minds</a>
+          <a href="/nat5maths/">National 5 Maths</a>
+          <a href="/borderline/">Borderline</a>
+          <a href="/dailyprotein/">Daily Protein</a>
+          <a href="/whichfirst/">Which Came First</a>
+        </div>
+        <div class="footer-col">
+          <span class="label">EwanX</span>
+          <a href="/about/">About</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> EwanX</span>
+        <span>support@ewanx.com</span>
+        <span class="mono">ewanx.com</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+          btn.classList.add('copied');
+          setTimeout(function () { btn.classList.remove('copied'); }, 1600);
+        });
+      });
+    });
+    document.querySelectorAll('.screens-wrap').forEach(function (wrap) {
+      var strip = wrap.querySelector('.screens');
+      wrap.querySelectorAll('[data-dir]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          strip.scrollBy({ left: strip.clientWidth * 0.7 * Number(b.dataset.dir), behavior: 'smooth' });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -3,65 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Great Minds &mdash; EwanX</title>
-  <meta name="description" content="Rank items, predict your friends' orders. Online multiplayer or pass-and-play for 2-6 players.">
+  <title>Great Minds | EwanX</title>
+  <meta name="description" content="Think you know your friends? Prove it. Think you know your friends? Prove it.">
+  <link rel="canonical" href="https://ewanx.com/greatminds/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EwanX">
-  <meta property="og:title" content="Great Minds">
-  <meta property="og:description" content="Rank items, predict your friends' orders. Online multiplayer or pass-and-play for 2-6 players.">
-  <meta property="og:url" content="https://ewanx.com/greatminds">
+  <meta property="og:title" content="Great Minds | EwanX">
+  <meta property="og:description" content="Think you know your friends? Prove it. Think you know your friends? Prove it.">
+  <meta property="og:url" content="https://ewanx.com/greatminds/">
   <meta property="og:image" content="https://ewanx.com/images/icons/greatminds.png">
-  <meta property="og:image:width" content="360">
-  <meta property="og:image:height" content="360">
   <meta name="twitter:card" content="summary">
-  <link rel="icon" type="image/png" href="/images/icon_solo_brain_64.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-  <header>
-    <a class="logo" href="/">Ewan<span>X</span></a>
-    <nav>
-      <a href="/#apps">Apps</a>
-      <a href="/#ai">AI</a>
-      <a href="mailto:support@ewanx.com">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Ewan<span>X</span></a>
+    </div>
   </header>
 
-  <main class="app-page">
-    <div class="app-layout">
-      <div class="app-heading">
-        <img class="app-icon" src="/images/icons/greatminds.png" alt="" width="360" height="360">
-        <h1>Great Minds</h1>
-        <a class="btn-badge" href="https://apps.apple.com/app/id6753956058" target="_blank" rel="noopener">
-          <img src="/images/app-store-badge.svg" alt="Download on the App Store" width="120" height="40">
-        </a>
+  <main>
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#apps">Apps</a><span>/</span><b>Great Minds</b></nav>
+
+      <section class="app-hero">
+        <div class="app-hero-main">
+          <img src="/images/icons/greatminds.png" alt="" width="360" height="360">
+          <div class="app-hero-text">
+            <h1>Great Minds</h1>
+            <p class="tagline">Think you know your friends? Prove it.</p>
+            <div class="chips"><span class="chip">Party game</span><span class="chip">2–6 players</span><span class="chip">Free to play</span></div>
+          </div>
+        </div>
+        <div class="app-hero-aside">
+          <a class="badge" href="https://apps.apple.com/app/id6753956058" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Great Minds on the App Store" width="120" height="40"></a>
+          <a class="m" href="#support">Need help? Support is below &darr;</a>
+        </div>
+      </section>
+
+      <div class="screens-wrap">
+        <div class="screens">
+        <img src="/greatminds/screenshots/1.png" alt="Great Minds screenshot 1" >
+        <img src="/greatminds/screenshots/2.png" alt="Great Minds screenshot 2" >
+        <img src="/greatminds/screenshots/3.png" alt="Great Minds screenshot 3" >
+        <img src="/greatminds/screenshots/4.png" alt="Great Minds screenshot 4" >
+        <img src="/greatminds/screenshots/5.png" alt="Great Minds screenshot 5"  loading="lazy">
+        </div>
+        <div class="screens-nav">
+          <button type="button" data-dir="-1" aria-label="Previous screenshots"><svg class="icon flip" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+          <button type="button" data-dir="1" aria-label="Next screenshots"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+        </div>
       </div>
-      <div class="screenshots">
-        <img src="/greatminds/screenshots/1.png" alt="Great Minds screenshot 1">
-        <img src="/greatminds/screenshots/2.png" alt="Great Minds screenshot 2">
-        <img src="/greatminds/screenshots/3.png" alt="Great Minds screenshot 3">
-        <img src="/greatminds/screenshots/4.png" alt="Great Minds screenshot 4">
-        <img src="/greatminds/screenshots/5.png" alt="Great Minds screenshot 5">
-      </div>
-      <p class="app-blurb">Think you know your friends? Prove it. Each round, one player ranks items
-        according to the prompt, and everyone else tries to predict their order.
-        Online multiplayer or pass-and-play on one device, for 2&ndash;6 players.</p>
-      <div class="app-links">
-        <a href="/greatminds/privacypolicy">Privacy Policy</a>
-      </div>
+
+      <section class="about-grid">
+        <div class="about-copy">
+          <span class="eyebrow">About the app</span>
+          <p class="lede">Think you know your friends? Prove it. Each round, one player ranks items according to the prompt, and everyone else tries to predict their order. Online multiplayer or pass-and-play on one device, for 2–6 players.</p>
+          <div class="features">
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5a5 5 0 0 1 6 5"/></svg>
+              <h3>Play together, anywhere</h3>
+              <p>Online multiplayer or pass-and-play on a single device. No sign-up needed.</p>
+            </div>
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg>
+              <h3>Rank and predict</h3>
+              <p>One player orders the items, everyone else guesses how they did it.</p>
+            </div>
+            <div class="feature">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5a5 5 0 0 1 6 5"/></svg>
+              <h3>Co-op or Competitive</h3>
+              <p>Team up or try to beat your friends across different game modes.</p>
+            </div>
+          </div>
+        </div>
+        <aside class="card details">
+          <div class="row"><span class="m">Developer</span><span>EwanX</span></div>
+          <div class="row"><span class="m">Category</span><span>Games</span></div>
+          <div class="row"><span class="m">Price</span><span>Free, with in-app purchase</span></div>
+          <div class="row"><span class="m">Accounts</span><span>None</span></div>
+          <div class="row"><span class="m">Ads</span><span>Yes, removable</span></div>
+          <div class="row"><span class="m">Age rating</span><span>9+</span></div>
+          <div class="built">
+            <span class="label">Built with</span>
+            <div class="chips"><span class="chip">SwiftUI</span><span class="chip">Firebase</span><span class="chip">AdMob</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="support" id="support">
+        <div>
+          <span class="eyebrow">Support</span>
+          <h2>Help with Great Minds</h2>
+        </div>
+        <div class="support-cards">
+          <div class="card">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <h3>Contact support</h3>
+            <p>If you spot anything that's wrong, or want to suggest an improvement, please get in touch. Mention Great Minds in your email.</p>
+            <button type="button" class="copy" data-copy="support@ewanx.com" aria-label="Copy support@ewanx.com to the clipboard"><span class="copy-text">support@ewanx.com</span><span class="copy-done">Copied</span><svg class="icon copy-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          </div>
+          <div class="card">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Privacy policy</h3>
+            <p>What Great Minds collects, who it is shared with, and how to delete it.</p>
+            <a class="link" href="/greatminds/privacypolicy/">Read the policy &rarr;</a>
+          </div>
+        </div>
+      </section>
+      <div class="page-end"></div>
     </div>
   </main>
 
-  <footer>
-    <p style="margin-bottom: 0.5rem;">&copy; <span id="year"></span> EwanX.com &mdash; <a href="mailto:support@ewanx.com">support@ewanx.com</a></p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">Ewan<span>X</span></a>
+          <p>Tools and games for iOS.</p>
+        </div>
+        <div class="footer-col">
+          <span class="label">Apps</span>
+          <a href="/greatminds/">Great Minds</a>
+          <a href="/nat5maths/">National 5 Maths</a>
+          <a href="/borderline/">Borderline</a>
+          <a href="/dailyprotein/">Daily Protein</a>
+          <a href="/whichfirst/">Which Came First</a>
+        </div>
+        <div class="footer-col">
+          <span class="label">EwanX</span>
+          <a href="/about/">About</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> EwanX</span>
+        <span>support@ewanx.com</span>
+        <span class="mono">ewanx.com</span>
+      </div>
+    </div>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+          btn.classList.add('copied');
+          setTimeout(function () { btn.classList.remove('copied'); }, 1600);
+        });
+      });
+    });
+    document.querySelectorAll('.screens-wrap').forEach(function (wrap) {
+      var strip = wrap.querySelector('.screens');
+      wrap.querySelectorAll('[data-dir]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          strip.scrollBy({ left: strip.clientWidth * 0.7 * Number(b.dataset.dir), behavior: 'smooth' });
+        });
+      });
+    });
   </script>
 </body>
 </html>

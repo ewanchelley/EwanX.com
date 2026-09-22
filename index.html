@@ -4,128 +4,185 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EwanX</title>
-  <meta name="description" content="Apps and LLM evaluation projects by Ewan Chelley.">
+  <meta name="description" content="Apps for iPhone by EwanX: Great Minds, National 5 Maths, Borderline, Daily Protein and Which Came First.">
+  <link rel="canonical" href="https://ewanx.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EwanX">
   <meta property="og:title" content="EwanX">
-  <meta property="og:description" content="Apps and LLM evaluation projects by Ewan Chelley.">
+  <meta property="og:description" content="Apps for iPhone by EwanX: Great Minds, National 5 Maths, Borderline, Daily Protein and Which Came First.">
   <meta property="og:url" content="https://ewanx.com/">
-  <meta property="og:image" content="https://ewanx.com/images/og-home.png">
-  <meta property="og:image:width" content="512">
-  <meta property="og:image:height" content="512">
+  <meta property="og:image" content="https://ewanx.com/images/ewanx-icon-512.png">
   <meta name="twitter:card" content="summary">
-  <link rel="icon" type="image/png" href="/images/icon_solo_brain_64.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
+  <script>if (location.hash === "#ai") location.replace("/ai/");</script>
 </head>
 <body>
 
-  <header>
-    <a class="logo" href="/">Ewan<span>X</span></a>
-    <nav>
-      <a class="tab-link" data-tab="apps" href="#apps">Apps</a>
-      <a class="tab-link" data-tab="ai" href="#ai">AI</a>
-      <a href="mailto:support@ewanx.com">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Ewan<span>X</span></a>
+    </div>
   </header>
 
-  <!-- ── AI tab ── -->
-  <main class="tab-panel" id="tab-ai" hidden>
-    <section class="hero">
-      <h1>AI <em>&amp;</em> LLM Evals</h1>
-      <p>Projects and experiments in evaluating large language models.</p>
-    </section>
-
-    <section class="app-section" id="inspect-eval">
-      <div class="app-layout">
-        <div class="app-info">
-          <span class="app-tag">Inspect &middot; Python</span>
-          <h2>Framing-Sensitivity Experiment</h2>
-          <p>An experiment built with Inspect, AISI's open-source LLM evaluation
-            framework. Asks a model the same subjective question 100 times under three
-            framings &mdash; neutral, &ldquo;be controversial&rdquo;, and &ldquo;be
-            objective&rdquo; &mdash; and measures how the wording alone shifts the
-            distribution of answers. The two primes produced nearly opposite winners,
-            in the opposite direction to what you'd expect.</p>
-          <div class="app-actions">
-            <a class="btn-store" href="https://github.com/ewanchelley/inspect-eval" target="_blank" rel="noopener">View on GitHub</a>
-          </div>
-        </div>
-        <div class="project-image">
-          <img src="/images/framing_comparison.png" alt="Bar charts showing the answer distribution for 'greatest rugby player' under neutral, controversial, and objective framings">
-        </div>
+  <main>
+    <section class="container hero">
+      <h1>Apps by Ewan<span class="x">X</span></h1>
+      <p>Tools and games for iOS.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#apps">Browse the apps</a>
       </div>
     </section>
 
-    <section class="app-section" id="eval-runner">
-      <div class="app-layout">
-        <div class="app-info">
-          <span class="app-tag">Python &middot; Anthropic API</span>
-          <h2>Eval Runner</h2>
-          <p>A minimal LLM evaluation runner built from scratch. Loads JSON test cases,
-            sends each prompt to a Claude model, then applies deterministic checks
-            (contains, exact match) or model-graded scoring with an LLM judge, and
-            prints a pass/fail report with an overall score.</p>
-          <div class="app-actions">
-            <a class="btn-store" href="https://github.com/ewanchelley/eval-runner" target="_blank" rel="noopener">View on GitHub</a>
-          </div>
-        </div>
-        <div class="project-image terminal">
-          <img src="/images/eval_runner_report.png" alt="Terminal output showing per-case PASS/FAIL results and a final score of 9/10 passed">
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ── Apps tab ── -->
-  <main class="tab-panel" id="tab-apps">
-    <div class="app-grid">
-      <a class="app-card" href="/whichfirst">
-        <img src="/images/icons/whichfirst.png" alt="" width="360" height="360">
-        <span>Which Came First</span>
-      </a>
-      <a class="app-card" href="/borderline">
-        <img src="/images/icons/borderline.png" alt="" width="360" height="360">
-        <span>Borderline</span>
-      </a>
-      <a class="app-card" href="/greatminds">
-        <img src="/images/icons/greatminds.png" alt="" width="360" height="360">
-        <span>Great Minds</span>
-      </a>
-      <a class="app-card" href="/dailyprotein">
-        <img src="/images/icons/dailyprotein.png" alt="" width="360" height="360">
-        <span>Daily Protein</span>
-      </a>
-      <a class="app-card" href="/nat5maths">
-        <img src="/images/icons/nat5maths.png" alt="" width="360" height="360">
-        <span>National 5 Maths</span>
-      </a>
+    <div class="container fan" aria-hidden="true">
+      <img src="/dailyprotein/screenshots/1.png" alt="Daily Protein">
+      <img src="/borderline/screenshots/1.png" alt="Borderline">
+      <img src="/greatminds/screenshots/1.png" alt="Great Minds">
+      <img src="/nat5maths/screenshots/1.png" alt="National 5 Maths">
+      <img src="/whichfirst/screenshots/1.png" alt="Which Came First">
     </div>
+
+    <section class="container section" id="apps">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The apps</span>
+          <h2>On the App Store</h2>
+        </div>
+        <div class="icon-stack"><img src="/images/icons/greatminds.png" alt="" width="360" height="360"><img src="/images/icons/nat5maths.png" alt="" width="360" height="360"><img src="/images/icons/borderline.png" alt="" width="360" height="360"><img src="/images/icons/dailyprotein.png" alt="" width="360" height="360"><img src="/images/icons/whichfirst.png" alt="" width="360" height="360"></div>
+      </div>
+      <div class="showcase-list">
+      <article class="showcase" style="--glow: #a78bfa;">
+        <div class="showcase-copy">
+          <div class="showcase-title">
+            <img src="/images/icons/greatminds.png" alt="" width="360" height="360">
+            <h3><a class="stretch" href="/greatminds/">Great Minds</a><span>Party game for 2–6 players</span></h3>
+            <a class="badge raise" href="https://apps.apple.com/app/id6753956058" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Great Minds on the App Store" width="120" height="40"></a>
+          </div>
+          <p>Think you know your friends? Prove it. Each round, one player ranks items according to the prompt, and everyone else tries to predict their order. Online multiplayer or pass-and-play on one device, for 2–6 players.</p>
+          <div class="chips"><span class="chip">Party game</span><span class="chip">2–6 players</span><span class="chip">Free to play</span></div>
+        </div>
+        <div class="showcase-media" style="background: #2a2340;">
+          <img src="/greatminds/screenshots/1.png" alt="" loading="lazy">
+          <img src="/greatminds/screenshots/2.png" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="showcase flip" style="--glow: #7c8ff5;">
+        <div class="showcase-copy">
+          <div class="showcase-title">
+            <img src="/images/icons/nat5maths.png" alt="" width="360" height="360">
+            <h3><a class="stretch" href="/nat5maths/">National 5 Maths</a><span>Exam revision</span></h3>
+            <a class="badge raise" href="https://apps.apple.com/gb/app/national-5-maths/id1643511000" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download National 5 Maths on the App Store" width="120" height="40"></a>
+          </div>
+          <p>Prepare for your National 5 Maths exam. Revise by topic, shuffle questions across difficulty levels, and practise with exam-style questions.</p>
+          <div class="chips"><span class="chip">Education</span><span class="chip">No ads</span><span class="chip">Free to download</span></div>
+        </div>
+        <div class="showcase-media" style="background: #252f4a;">
+          <img src="/nat5maths/screenshots/1.png" alt="" loading="lazy">
+          <img src="/nat5maths/screenshots/2.png" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="showcase" style="--glow: #8cc98f;">
+        <div class="showcase-copy">
+          <div class="showcase-title">
+            <img src="/images/icons/borderline.png" alt="" width="360" height="360">
+            <h3><a class="stretch" href="/borderline/">Borderline</a><span>Geography quiz</span></h3>
+            <a class="badge raise" href="https://apps.apple.com/app/apple-store/id6797909629?pt=125562025&amp;ct=ewanx_web&amp;mt=8" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Borderline on the App Store" width="120" height="40"></a>
+          </div>
+          <p>Two countries, one question. Tap the one that answers it. Flags, capitals, borders, populations and areas across all 193 UN member states, getting harder the longer you last. Every correct answer adds to a collection you build one country at a time.</p>
+          <div class="chips"><span class="chip">Geography quiz</span><span class="chip">No ads</span><span class="chip">Free to play</span></div>
+        </div>
+        <div class="showcase-media" style="background: #242c26;">
+          <img src="/borderline/screenshots/1.png" alt="" loading="lazy">
+          <img src="/borderline/screenshots/6.png" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="showcase flip" style="--glow: #4fb3d9;">
+        <div class="showcase-copy">
+          <div class="showcase-title">
+            <img src="/images/icons/dailyprotein.png" alt="" width="360" height="360">
+            <h3><a class="stretch" href="/dailyprotein/">Daily Protein</a><span>Health and fitness</span></h3>
+            <a class="badge raise" href="https://apps.apple.com/app/daily-protein/id6744659498" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Daily Protein on the App Store" width="120" height="40"></a>
+          </div>
+          <p>Track your protein quickly, with no clutter and no hassle. Log food in seconds, monitor your intake, and build consistent habits, all without needing an account or subscription.</p>
+          <div class="chips"><span class="chip">Health &amp; fitness</span><span class="chip">No ads</span><span class="chip">Free to download</span></div>
+        </div>
+        <div class="showcase-media" style="background: #1f2b30;">
+          <img src="/dailyprotein/screenshots/1.png" alt="" loading="lazy">
+          <img src="/dailyprotein/screenshots/2.png" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="showcase" style="--glow: #d9a35a;">
+        <div class="showcase-copy">
+          <div class="showcase-title">
+            <img src="/images/icons/whichfirst.png" alt="" width="360" height="360">
+            <h3><a class="stretch" href="/whichfirst/">Which Came First</a><span>History quiz</span></h3>
+            <a class="badge raise" href="https://apps.apple.com/app/id6801636261?ct=ewanx_web" target="_blank" rel="noopener"><img src="/images/app-store-badge.svg" alt="Download Which Came First on the App Store" width="120" height="40"></a>
+          </div>
+          <p>Test your knowledge of over 1,000 moments from 1900 to 2019. Tap the one that happened first. Get it wrong and it’s game over.</p>
+          <div class="chips"><span class="chip">Trivia quiz</span><span class="chip">No ads</span><span class="chip">Free to play</span></div>
+        </div>
+        <div class="showcase-media" style="background: #2d2620;">
+          <img src="/whichfirst/screenshots/1.png" alt="" loading="lazy">
+          <img src="/whichfirst/screenshots/2.png" alt="" loading="lazy">
+        </div>
+      </article>
+
+      </div>
+    </section>
+    <div class="page-end"></div>
   </main>
 
-  <footer>
-    <p style="margin-bottom: 0.5rem;">&copy; <span id="year"></span> EwanX.com &mdash; <a href="mailto:support@ewanx.com">support@ewanx.com</a></p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">Ewan<span>X</span></a>
+          <p>Tools and games for iOS.</p>
+        </div>
+        <div class="footer-col">
+          <span class="label">Apps</span>
+          <a href="/greatminds/">Great Minds</a>
+          <a href="/nat5maths/">National 5 Maths</a>
+          <a href="/borderline/">Borderline</a>
+          <a href="/dailyprotein/">Daily Protein</a>
+          <a href="/whichfirst/">Which Came First</a>
+        </div>
+        <div class="footer-col">
+          <span class="label">EwanX</span>
+          <a href="/about/">About</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> EwanX</span>
+        <span>support@ewanx.com</span>
+        <span class="mono">ewanx.com</span>
+      </div>
+    </div>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // ── Tabs ──
-    function showTab(name) {
-      document.querySelectorAll('.tab-panel').forEach(p => {
-        p.hidden = p.id !== 'tab-' + name;
+    document.querySelectorAll('.copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+          btn.classList.add('copied');
+          setTimeout(function () { btn.classList.remove('copied'); }, 1600);
+        });
       });
-      document.querySelectorAll('.tab-link').forEach(t => {
-        t.classList.toggle('active', t.dataset.tab === name);
+    });
+    document.querySelectorAll('.screens-wrap').forEach(function (wrap) {
+      var strip = wrap.querySelector('.screens');
+      wrap.querySelectorAll('[data-dir]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          strip.scrollBy({ left: strip.clientWidth * 0.7 * Number(b.dataset.dir), behavior: 'smooth' });
+        });
       });
-    }
-    function tabFromHash() {
-      return location.hash === '#ai' ? 'ai' : 'apps';
-    }
-    window.addEventListener('hashchange', () => showTab(tabFromHash()));
-    showTab(tabFromHash());
+    });
   </script>
 </body>
 </html>
