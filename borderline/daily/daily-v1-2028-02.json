@@ -5,436 +5,436 @@
     "2028-02-01": {
       "theme": "capitals",
       "questions": [
-        {"type": "capital", "a": "AU", "b": "JM", "answer": "JM"},
-        {"type": "capital", "a": "KE", "b": "IQ", "answer": "IQ"},
-        {"type": "capital", "a": "FR", "b": "CN", "answer": "CN"},
-        {"type": "capital", "a": "PT", "b": "PE", "answer": "PE"},
-        {"type": "capital", "a": "YE", "b": "KW", "answer": "KW"},
-        {"type": "capital", "a": "MT", "b": "MN", "answer": "MT"},
-        {"type": "capital", "a": "LB", "b": "MU", "answer": "LB"},
-        {"type": "capital", "a": "KG", "b": "BB", "answer": "KG"},
-        {"type": "capital", "a": "AD", "b": "CY", "answer": "AD"},
-        {"type": "capital", "a": "DJ", "b": "VU", "answer": "DJ"}
+        {"type": "capital", "a": "PT", "b": "ZA", "answer": "ZA"},
+        {"type": "capital", "a": "DK", "b": "CA", "answer": "CA"},
+        {"type": "capital", "a": "JO", "b": "LU", "answer": "LU"},
+        {"type": "capital", "a": "CG", "b": "NA", "answer": "NA"},
+        {"type": "capital", "a": "ID", "b": "JP", "answer": "ID"},
+        {"type": "capital", "a": "OM", "b": "LA", "answer": "OM"},
+        {"type": "capital", "a": "EC", "b": "NP", "answer": "EC"},
+        {"type": "capital", "a": "CV", "b": "ML", "answer": "CV"},
+        {"type": "capital", "a": "QA", "b": "CY", "answer": "QA"},
+        {"type": "capital", "a": "MN", "b": "UZ", "answer": "UZ"}
       ]
     },
     "2028-02-02": {
-      "theme": "numbers",
+      "theme": "europe",
       "questions": [
-        {"type": "area", "a": "UG", "b": "ID", "answer": "ID"},
-        {"type": "population", "a": "MC", "b": "BS", "answer": "BS"},
-        {"type": "area", "a": "CN", "b": "SA", "answer": "CN"},
-        {"type": "area", "a": "ES", "b": "CD", "answer": "CD"},
-        {"type": "population", "a": "MU", "b": "ME", "answer": "MU"},
-        {"type": "population", "a": "TM", "b": "HT", "answer": "HT"},
-        {"type": "area", "a": "JP", "b": "IT", "answer": "JP"},
-        {"type": "area", "a": "SE", "b": "BY", "answer": "SE"},
-        {"type": "population", "a": "RU", "b": "BR", "answer": "BR"},
-        {"type": "population", "a": "ZW", "b": "TD", "answer": "TD"}
+        {"type": "area", "a": "AL", "b": "CZ", "answer": "CZ"},
+        {"type": "capital", "a": "HR", "b": "MT", "answer": "HR"},
+        {"type": "capital", "a": "RU", "b": "GR", "answer": "RU"},
+        {"type": "borders", "a": "LV", "b": "UA", "answer": "LV", "neighbour": "LT"},
+        {"type": "population", "a": "IS", "b": "ME", "answer": "ME"},
+        {"type": "flag", "a": "BY", "b": "BG", "answer": "BY"},
+        {"type": "borders", "a": "DE", "b": "GB", "answer": "DE", "neighbour": "FR"},
+        {"type": "capital", "a": "RO", "b": "LI", "answer": "RO"},
+        {"type": "flag", "a": "AD", "b": "BA", "answer": "AD"},
+        {"type": "area", "a": "DK", "b": "BE", "answer": "DK"}
       ]
     },
     "2028-02-03": {
-      "theme": "borders",
+      "theme": "numbers",
       "questions": [
-        {"type": "borders", "a": "LT", "b": "DZ", "answer": "LT", "neighbour": "BY"},
-        {"type": "borders", "a": "LY", "b": "LK", "answer": "LY", "neighbour": "EG"},
-        {"type": "borders", "a": "IT", "b": "CZ", "answer": "IT", "neighbour": "SI"},
-        {"type": "borders", "a": "UA", "b": "CH", "answer": "UA", "neighbour": "HU"},
-        {"type": "borders", "a": "CU", "b": "HT", "answer": "HT", "neighbour": "DO"},
-        {"type": "borders", "a": "MG", "b": "GW", "answer": "GW", "neighbour": "SN"},
-        {"type": "borders", "a": "GT", "b": "BZ", "answer": "GT", "neighbour": "SV"},
-        {"type": "borders", "a": "BE", "b": "LI", "answer": "BE", "neighbour": "DE"},
-        {"type": "borders", "a": "LR", "b": "CI", "answer": "LR", "neighbour": "SL"},
-        {"type": "borders", "a": "NE", "b": "TG", "answer": "NE", "neighbour": "NG"}
+        {"type": "population", "a": "NZ", "b": "AF", "answer": "AF"},
+        {"type": "area", "a": "SG", "b": "LB", "answer": "LB"},
+        {"type": "area", "a": "PA", "b": "KW", "answer": "PA"},
+        {"type": "population", "a": "NO", "b": "PT", "answer": "PT"},
+        {"type": "population", "a": "BH", "b": "SC", "answer": "BH"},
+        {"type": "population", "a": "IL", "b": "BI", "answer": "BI"},
+        {"type": "area", "a": "BJ", "b": "DJ", "answer": "BJ"},
+        {"type": "area", "a": "SL", "b": "CH", "answer": "SL"},
+        {"type": "area", "a": "NR", "b": "SM", "answer": "SM"},
+        {"type": "population", "a": "CI", "b": "CO", "answer": "CO"}
       ]
     },
     "2028-02-04": {
       "theme": "flags",
       "questions": [
-        {"type": "flag", "a": "AZ", "b": "LU", "answer": "LU"},
-        {"type": "flag", "a": "PL", "b": "HR", "answer": "PL"},
-        {"type": "flag", "a": "TH", "b": "FJ", "answer": "FJ"},
-        {"type": "flag", "a": "BO", "b": "IQ", "answer": "IQ"},
-        {"type": "flag", "a": "NA", "b": "MT", "answer": "MT"},
-        {"type": "flag", "a": "NP", "b": "MY", "answer": "MY"},
-        {"type": "flag", "a": "GY", "b": "VC", "answer": "VC"},
-        {"type": "flag", "a": "BI", "b": "GM", "answer": "BI"},
-        {"type": "flag", "a": "AL", "b": "SI", "answer": "SI"},
-        {"type": "flag", "a": "CF", "b": "ST", "answer": "CF"}
+        {"type": "flag", "a": "BZ", "b": "CR", "answer": "CR"},
+        {"type": "flag", "a": "ZA", "b": "IT", "answer": "ZA"},
+        {"type": "flag", "a": "CN", "b": "AU", "answer": "AU"},
+        {"type": "flag", "a": "SO", "b": "KP", "answer": "KP"},
+        {"type": "flag", "a": "TO", "b": "MC", "answer": "MC"},
+        {"type": "flag", "a": "TG", "b": "ZM", "answer": "ZM"},
+        {"type": "flag", "a": "MH", "b": "NE", "answer": "NE"},
+        {"type": "flag", "a": "AG", "b": "DM", "answer": "AG"},
+        {"type": "flag", "a": "VC", "b": "SV", "answer": "SV"},
+        {"type": "flag", "a": "AO", "b": "TH", "answer": "AO"}
       ]
     },
     "2028-02-05": {
-      "theme": "europe",
+      "theme": "asia",
       "questions": [
-        {"type": "capital", "a": "PL", "b": "SK", "answer": "PL"},
-        {"type": "area", "a": "DK", "b": "FI", "answer": "FI"},
-        {"type": "area", "a": "GB", "b": "IE", "answer": "GB"},
-        {"type": "borders", "a": "NO", "b": "RS", "answer": "NO", "neighbour": "SE"},
-        {"type": "borders", "a": "LV", "b": "BA", "answer": "LV", "neighbour": "BY"},
-        {"type": "population", "a": "ME", "b": "IS", "answer": "ME"},
-        {"type": "capital", "a": "HU", "b": "MD", "answer": "HU"},
-        {"type": "population", "a": "MK", "b": "EE", "answer": "MK"},
-        {"type": "flag", "a": "CY", "b": "RO", "answer": "CY"},
-        {"type": "flag", "a": "BG", "b": "LI", "answer": "LI"}
+        {"type": "flag", "a": "SA", "b": "IQ", "answer": "SA"},
+        {"type": "capital", "a": "JO", "b": "AM", "answer": "JO"},
+        {"type": "flag", "a": "TR", "b": "IR", "answer": "TR"},
+        {"type": "population", "a": "KR", "b": "SY", "answer": "KR"},
+        {"type": "area", "a": "KG", "b": "TH", "answer": "TH"},
+        {"type": "area", "a": "AE", "b": "SB", "answer": "AE"},
+        {"type": "borders", "a": "UZ", "b": "BD", "answer": "UZ", "neighbour": "AF"},
+        {"type": "capital", "a": "PG", "b": "LB", "answer": "LB"},
+        {"type": "capital", "a": "WS", "b": "MH", "answer": "MH"},
+        {"type": "borders", "a": "NP", "b": "TM", "answer": "NP", "neighbour": "CN"}
       ]
     },
     "2028-02-06": {
       "theme": "hard",
       "questions": [
-        {"type": "flag", "a": "HU", "b": "AD", "answer": "HU"},
-        {"type": "borders", "a": "AZ", "b": "IL", "answer": "AZ", "neighbour": "TR"},
-        {"type": "borders", "a": "LS", "b": "TZ", "answer": "TZ", "neighbour": "ZM"},
-        {"type": "flag", "a": "SD", "b": "MZ", "answer": "MZ"},
-        {"type": "capital", "a": "BJ", "b": "ML", "answer": "ML"},
-        {"type": "population", "a": "MA", "b": "CM", "answer": "MA"},
-        {"type": "capital", "a": "CG", "b": "NA", "answer": "NA"},
-        {"type": "area", "a": "MV", "b": "AG", "answer": "AG"},
-        {"type": "area", "a": "ER", "b": "SR", "answer": "SR"},
-        {"type": "population", "a": "PA", "b": "CF", "answer": "CF"}
+        {"type": "area", "a": "TT", "b": "KI", "answer": "TT"},
+        {"type": "population", "a": "IE", "b": "HT", "answer": "HT"},
+        {"type": "borders", "a": "GM", "b": "MA", "answer": "GM", "neighbour": "SN"},
+        {"type": "capital", "a": "FM", "b": "MU", "answer": "FM"},
+        {"type": "area", "a": "NL", "b": "GE", "answer": "GE"},
+        {"type": "capital", "a": "SD", "b": "ET", "answer": "ET"},
+        {"type": "flag", "a": "SR", "b": "GY", "answer": "GY"},
+        {"type": "population", "a": "ER", "b": "SG", "answer": "SG"},
+        {"type": "borders", "a": "MK", "b": "RS", "answer": "RS", "neighbour": "ME"},
+        {"type": "flag", "a": "PL", "b": "LT", "answer": "LT"}
       ]
     },
     "2028-02-07": {
       "theme": "mix",
       "questions": [
-        {"type": "area", "a": "AU", "b": "VN", "answer": "AU"},
-        {"type": "population", "a": "RW", "b": "CR", "answer": "RW"},
-        {"type": "borders", "a": "IT", "b": "BA", "answer": "BA", "neighbour": "HR"},
-        {"type": "capital", "a": "GH", "b": "SG", "answer": "SG"},
-        {"type": "area", "a": "SM", "b": "NR", "answer": "SM"},
-        {"type": "capital", "a": "MM", "b": "KZ", "answer": "MM"},
-        {"type": "flag", "a": "RO", "b": "TN", "answer": "RO"},
-        {"type": "population", "a": "UY", "b": "PY", "answer": "PY"},
-        {"type": "borders", "a": "CO", "b": "CL", "answer": "CO", "neighbour": "BR"},
-        {"type": "flag", "a": "SC", "b": "GA", "answer": "GA"}
+        {"type": "capital", "a": "AR", "b": "BR", "answer": "BR"},
+        {"type": "area", "a": "UG", "b": "UA", "answer": "UA"},
+        {"type": "capital", "a": "BB", "b": "HN", "answer": "HN"},
+        {"type": "capital", "a": "AE", "b": "YE", "answer": "AE"},
+        {"type": "borders", "a": "CM", "b": "SS", "answer": "SS", "neighbour": "CD"},
+        {"type": "population", "a": "CL", "b": "MZ", "answer": "MZ"},
+        {"type": "flag", "a": "DZ", "b": "CG", "answer": "CG"},
+        {"type": "area", "a": "MV", "b": "ME", "answer": "ME"},
+        {"type": "flag", "a": "SR", "b": "BN", "answer": "SR"},
+        {"type": "borders", "a": "BG", "b": "MD", "answer": "BG", "neighbour": "MK"}
       ]
     },
     "2028-02-08": {
       "theme": "capitals",
       "questions": [
-        {"type": "capital", "a": "US", "b": "CO", "answer": "CO"},
-        {"type": "capital", "a": "BD", "b": "VN", "answer": "VN"},
-        {"type": "capital", "a": "NL", "b": "GR", "answer": "NL"},
-        {"type": "capital", "a": "MY", "b": "ET", "answer": "MY"},
-        {"type": "capital", "a": "TN", "b": "TO", "answer": "TN"},
-        {"type": "capital", "a": "MW", "b": "SS", "answer": "SS"},
-        {"type": "capital", "a": "TV", "b": "WS", "answer": "TV"},
-        {"type": "capital", "a": "HT", "b": "NI", "answer": "HT"},
-        {"type": "capital", "a": "NE", "b": "KM", "answer": "NE"},
-        {"type": "capital", "a": "GN", "b": "MR", "answer": "GN"}
+        {"type": "capital", "a": "EG", "b": "DE", "answer": "DE"},
+        {"type": "capital", "a": "CD", "b": "MY", "answer": "CD"},
+        {"type": "capital", "a": "PK", "b": "UY", "answer": "PK"},
+        {"type": "capital", "a": "TH", "b": "ES", "answer": "TH"},
+        {"type": "capital", "a": "VU", "b": "BB", "answer": "BB"},
+        {"type": "capital", "a": "FI", "b": "HU", "answer": "FI"},
+        {"type": "capital", "a": "LA", "b": "BT", "answer": "LA"},
+        {"type": "capital", "a": "LS", "b": "GN", "answer": "LS"},
+        {"type": "capital", "a": "MR", "b": "ST", "answer": "MR"},
+        {"type": "capital", "a": "SM", "b": "CY", "answer": "SM"}
       ]
     },
     "2028-02-09": {
-      "theme": "numbers",
+      "theme": "africa",
       "questions": [
-        {"type": "area", "a": "AE", "b": "MG", "answer": "MG"},
-        {"type": "population", "a": "MX", "b": "CN", "answer": "CN"},
-        {"type": "population", "a": "JM", "b": "SG", "answer": "SG"},
-        {"type": "area", "a": "EC", "b": "CL", "answer": "CL"},
-        {"type": "population", "a": "GE", "b": "PG", "answer": "PG"},
-        {"type": "population", "a": "UZ", "b": "IR", "answer": "IR"},
-        {"type": "area", "a": "DJ", "b": "LS", "answer": "LS"},
-        {"type": "area", "a": "KN", "b": "MH", "answer": "KN"},
-        {"type": "area", "a": "SZ", "b": "GQ", "answer": "GQ"},
-        {"type": "population", "a": "ET", "b": "PH", "answer": "ET"}
+        {"type": "capital", "a": "NG", "b": "ZW", "answer": "ZW"},
+        {"type": "borders", "a": "RW", "b": "SO", "answer": "SO", "neighbour": "ET"},
+        {"type": "borders", "a": "TZ", "b": "SD", "answer": "SD", "neighbour": "LY"},
+        {"type": "population", "a": "KE", "b": "CD", "answer": "CD"},
+        {"type": "area", "a": "EG", "b": "CF", "answer": "EG"},
+        {"type": "capital", "a": "MG", "b": "TD", "answer": "MG"},
+        {"type": "flag", "a": "ER", "b": "GA", "answer": "ER"},
+        {"type": "area", "a": "GQ", "b": "ZM", "answer": "ZM"},
+        {"type": "flag", "a": "TG", "b": "KM", "answer": "TG"},
+        {"type": "flag", "a": "BF", "b": "GW", "answer": "GW"}
       ]
     },
     "2028-02-10": {
       "theme": "borders",
       "questions": [
-        {"type": "borders", "a": "MZ", "b": "SO", "answer": "MZ", "neighbour": "TZ"},
-        {"type": "borders", "a": "IN", "b": "BG", "answer": "BG", "neighbour": "TR"},
-        {"type": "borders", "a": "MM", "b": "ID", "answer": "MM", "neighbour": "TH"},
-        {"type": "borders", "a": "HN", "b": "KR", "answer": "KR", "neighbour": "KP"},
-        {"type": "borders", "a": "EG", "b": "TN", "answer": "TN", "neighbour": "DZ"},
-        {"type": "borders", "a": "MD", "b": "AT", "answer": "MD", "neighbour": "RO"},
-        {"type": "borders", "a": "LA", "b": "UZ", "answer": "UZ", "neighbour": "KZ"},
-        {"type": "borders", "a": "KH", "b": "JO", "answer": "KH", "neighbour": "VN"},
-        {"type": "borders", "a": "AE", "b": "SY", "answer": "AE", "neighbour": "SA"},
-        {"type": "borders", "a": "BH", "b": "NP", "answer": "NP", "neighbour": "CN"}
+        {"type": "borders", "a": "RO", "b": "PE", "answer": "RO", "neighbour": "RS"},
+        {"type": "borders", "a": "KZ", "b": "BS", "answer": "KZ", "neighbour": "CN"},
+        {"type": "borders", "a": "KW", "b": "IN", "answer": "KW", "neighbour": "IQ"},
+        {"type": "borders", "a": "AT", "b": "CH", "answer": "AT", "neighbour": "SK"},
+        {"type": "borders", "a": "OM", "b": "SA", "answer": "SA", "neighbour": "JO"},
+        {"type": "borders", "a": "MM", "b": "AZ", "answer": "AZ", "neighbour": "IR"},
+        {"type": "borders", "a": "BZ", "b": "NI", "answer": "BZ", "neighbour": "GT"},
+        {"type": "borders", "a": "TD", "b": "LR", "answer": "TD", "neighbour": "NG"},
+        {"type": "borders", "a": "MC", "b": "SI", "answer": "MC", "neighbour": "FR"},
+        {"type": "borders", "a": "HN", "b": "MX", "answer": "HN", "neighbour": "SV"}
       ]
     },
     "2028-02-11": {
       "theme": "flags",
       "questions": [
-        {"type": "flag", "a": "EC", "b": "CV", "answer": "EC"},
-        {"type": "flag", "a": "KE", "b": "JP", "answer": "JP"},
-        {"type": "flag", "a": "IT", "b": "RU", "answer": "IT"},
-        {"type": "flag", "a": "US", "b": "ZA", "answer": "US"},
-        {"type": "flag", "a": "JM", "b": "CU", "answer": "JM"},
-        {"type": "flag", "a": "MD", "b": "MT", "answer": "MD"},
-        {"type": "flag", "a": "NP", "b": "BN", "answer": "NP"},
-        {"type": "flag", "a": "FM", "b": "VU", "answer": "VU"},
-        {"type": "flag", "a": "KI", "b": "NR", "answer": "NR"},
-        {"type": "flag", "a": "GD", "b": "TT", "answer": "TT"}
+        {"type": "flag", "a": "KE", "b": "BO", "answer": "KE"},
+        {"type": "flag", "a": "CA", "b": "BR", "answer": "BR"},
+        {"type": "flag", "a": "IN", "b": "CZ", "answer": "IN"},
+        {"type": "flag", "a": "US", "b": "JM", "answer": "US"},
+        {"type": "flag", "a": "OM", "b": "MN", "answer": "OM"},
+        {"type": "flag", "a": "HR", "b": "BY", "answer": "HR"},
+        {"type": "flag", "a": "SZ", "b": "CV", "answer": "SZ"},
+        {"type": "flag", "a": "EC", "b": "PY", "answer": "PY"},
+        {"type": "flag", "a": "TV", "b": "VU", "answer": "VU"},
+        {"type": "flag", "a": "TO", "b": "FJ", "answer": "FJ"}
       ]
     },
     "2028-02-12": {
-      "theme": "asia",
+      "theme": "americas",
       "questions": [
-        {"type": "population", "a": "SA", "b": "QA", "answer": "SA"},
-        {"type": "capital", "a": "KR", "b": "AU", "answer": "KR"},
-        {"type": "borders", "a": "SY", "b": "LK", "answer": "SY", "neighbour": "JO"},
-        {"type": "flag", "a": "LB", "b": "YE", "answer": "LB"},
-        {"type": "flag", "a": "KG", "b": "OM", "answer": "OM"},
-        {"type": "area", "a": "MH", "b": "PW", "answer": "PW"},
-        {"type": "borders", "a": "KW", "b": "AM", "answer": "KW", "neighbour": "IQ"},
-        {"type": "capital", "a": "SB", "b": "WS", "answer": "WS"},
-        {"type": "area", "a": "TJ", "b": "AZ", "answer": "TJ"},
-        {"type": "population", "a": "NZ", "b": "MN", "answer": "NZ"}
+        {"type": "population", "a": "JM", "b": "DO", "answer": "DO"},
+        {"type": "area", "a": "US", "b": "HT", "answer": "US"},
+        {"type": "population", "a": "CU", "b": "UY", "answer": "CU"},
+        {"type": "flag", "a": "CA", "b": "MX", "answer": "CA"},
+        {"type": "capital", "a": "SV", "b": "GD", "answer": "SV"},
+        {"type": "capital", "a": "LC", "b": "CR", "answer": "CR"},
+        {"type": "borders", "a": "EC", "b": "KN", "answer": "EC", "neighbour": "CO"},
+        {"type": "borders", "a": "GY", "b": "PA", "answer": "GY", "neighbour": "VE"},
+        {"type": "flag", "a": "TT", "b": "DM", "answer": "TT"},
+        {"type": "capital", "a": "AG", "b": "VC", "answer": "VC"}
       ]
     },
     "2028-02-13": {
       "theme": "hard",
       "questions": [
-        {"type": "population", "a": "IE", "b": "LA", "answer": "LA"},
-        {"type": "flag", "a": "LR", "b": "BW", "answer": "LR"},
-        {"type": "area", "a": "TD", "b": "AR", "answer": "AR"},
-        {"type": "flag", "a": "BD", "b": "BT", "answer": "BD"},
-        {"type": "area", "a": "BI", "b": "BS", "answer": "BI"},
-        {"type": "borders", "a": "LS", "b": "AO", "answer": "LS", "neighbour": "ZA"},
-        {"type": "capital", "a": "BJ", "b": "GW", "answer": "BJ"},
-        {"type": "capital", "a": "TL", "b": "FM", "answer": "FM"},
-        {"type": "borders", "a": "BZ", "b": "PA", "answer": "BZ", "neighbour": "GT"},
-        {"type": "population", "a": "ZW", "b": "PT", "answer": "ZW"}
+        {"type": "borders", "a": "GN", "b": "SL", "answer": "GN", "neighbour": "CI"},
+        {"type": "area", "a": "VN", "b": "BW", "answer": "BW"},
+        {"type": "capital", "a": "MU", "b": "GH", "answer": "MU"},
+        {"type": "population", "a": "LB", "b": "CH", "answer": "CH"},
+        {"type": "flag", "a": "TV", "b": "PW", "answer": "TV"},
+        {"type": "population", "a": "BJ", "b": "GR", "answer": "BJ"},
+        {"type": "area", "a": "MY", "b": "KG", "answer": "MY"},
+        {"type": "flag", "a": "HN", "b": "BS", "answer": "HN"},
+        {"type": "capital", "a": "TJ", "b": "GW", "answer": "GW"},
+        {"type": "borders", "a": "GB", "b": "BA", "answer": "GB", "neighbour": "IE"}
       ]
     },
     "2028-02-14": {
       "theme": "mix",
       "questions": [
-        {"type": "borders", "a": "LB", "b": "PH", "answer": "LB", "neighbour": "SY"},
-        {"type": "area", "a": "PA", "b": "AL", "answer": "PA"},
-        {"type": "area", "a": "LU", "b": "SG", "answer": "LU"},
-        {"type": "flag", "a": "MG", "b": "AF", "answer": "MG"},
-        {"type": "population", "a": "ER", "b": "KG", "answer": "KG"},
-        {"type": "borders", "a": "IS", "b": "SE", "answer": "SE", "neighbour": "FI"},
-        {"type": "population", "a": "BE", "b": "RO", "answer": "RO"},
-        {"type": "capital", "a": "TV", "b": "SB", "answer": "SB"},
-        {"type": "capital", "a": "DM", "b": "VC", "answer": "VC"},
-        {"type": "flag", "a": "NE", "b": "SL", "answer": "NE"}
+        {"type": "flag", "a": "NA", "b": "PK", "answer": "PK"},
+        {"type": "flag", "a": "ID", "b": "NZ", "answer": "NZ"},
+        {"type": "area", "a": "PH", "b": "MZ", "answer": "MZ"},
+        {"type": "borders", "a": "DK", "b": "SI", "answer": "SI", "neighbour": "HR"},
+        {"type": "population", "a": "IS", "b": "MU", "answer": "MU"},
+        {"type": "area", "a": "JM", "b": "FJ", "answer": "FJ"},
+        {"type": "capital", "a": "KM", "b": "NE", "answer": "KM"},
+        {"type": "capital", "a": "ME", "b": "AD", "answer": "ME"},
+        {"type": "borders", "a": "PL", "b": "KR", "answer": "PL", "neighbour": "RU"},
+        {"type": "capital", "a": "MW", "b": "GA", "answer": "GA"}
       ]
     },
     "2028-02-15": {
       "theme": "capitals",
       "questions": [
-        {"type": "capital", "a": "HR", "b": "BY", "answer": "HR"},
-        {"type": "capital", "a": "CA", "b": "GB", "answer": "CA"},
-        {"type": "capital", "a": "PK", "b": "AT", "answer": "AT"},
-        {"type": "capital", "a": "FR", "b": "IR", "answer": "IR"},
-        {"type": "capital", "a": "MC", "b": "ME", "answer": "ME"},
-        {"type": "capital", "a": "CY", "b": "NG", "answer": "CY"},
-        {"type": "capital", "a": "SV", "b": "BB", "answer": "SV"},
-        {"type": "capital", "a": "CF", "b": "ST", "answer": "ST"},
-        {"type": "capital", "a": "AG", "b": "KN", "answer": "KN"},
-        {"type": "capital", "a": "FJ", "b": "SO", "answer": "SO"}
+        {"type": "capital", "a": "SE", "b": "SY", "answer": "SE"},
+        {"type": "capital", "a": "JP", "b": "NL", "answer": "NL"},
+        {"type": "capital", "a": "TN", "b": "BY", "answer": "BY"},
+        {"type": "capital", "a": "KH", "b": "CO", "answer": "CO"},
+        {"type": "capital", "a": "GE", "b": "AM", "answer": "GE"},
+        {"type": "capital", "a": "AF", "b": "QA", "answer": "AF"},
+        {"type": "capital", "a": "CG", "b": "BJ", "answer": "BJ"},
+        {"type": "capital", "a": "PG", "b": "KI", "answer": "KI"},
+        {"type": "capital", "a": "BB", "b": "PA", "answer": "PA"},
+        {"type": "capital", "a": "MD", "b": "LU", "answer": "MD"}
       ]
     },
     "2028-02-16": {
-      "theme": "numbers",
+      "theme": "europe",
       "questions": [
-        {"type": "population", "a": "MG", "b": "NO", "answer": "MG"},
-        {"type": "area", "a": "YE", "b": "CZ", "answer": "YE"},
-        {"type": "area", "a": "RW", "b": "CR", "answer": "CR"},
-        {"type": "population", "a": "VN", "b": "UG", "answer": "VN"},
-        {"type": "area", "a": "UY", "b": "CG", "answer": "CG"},
-        {"type": "population", "a": "MC", "b": "PW", "answer": "MC"},
-        {"type": "population", "a": "KR", "b": "CI", "answer": "KR"},
-        {"type": "area", "a": "SR", "b": "BF", "answer": "BF"},
-        {"type": "population", "a": "LT", "b": "KW", "answer": "KW"},
-        {"type": "area", "a": "AD", "b": "FM", "answer": "FM"}
+        {"type": "borders", "a": "EE", "b": "CH", "answer": "CH", "neighbour": "FR"},
+        {"type": "population", "a": "LV", "b": "DK", "answer": "DK"},
+        {"type": "flag", "a": "BA", "b": "LT", "answer": "BA"},
+        {"type": "area", "a": "CY", "b": "RS", "answer": "RS"},
+        {"type": "borders", "a": "BE", "b": "UA", "answer": "UA", "neighbour": "HU"},
+        {"type": "flag", "a": "LI", "b": "BG", "answer": "BG"},
+        {"type": "population", "a": "NO", "b": "BY", "answer": "BY"},
+        {"type": "capital", "a": "AL", "b": "AD", "answer": "AD"},
+        {"type": "capital", "a": "MK", "b": "SM", "answer": "MK"},
+        {"type": "capital", "a": "FI", "b": "MC", "answer": "MC"}
       ]
     },
     "2028-02-17": {
-      "theme": "borders",
+      "theme": "numbers",
       "questions": [
-        {"type": "borders", "a": "SN", "b": "BW", "answer": "BW", "neighbour": "ZA"},
-        {"type": "borders", "a": "UA", "b": "NL", "answer": "NL", "neighbour": "BE"},
-        {"type": "borders", "a": "HN", "b": "SD", "answer": "HN", "neighbour": "GT"},
-        {"type": "borders", "a": "CH", "b": "SK", "answer": "CH", "neighbour": "FR"},
-        {"type": "borders", "a": "CM", "b": "LY", "answer": "CM", "neighbour": "NG"},
-        {"type": "borders", "a": "ZM", "b": "GM", "answer": "ZM", "neighbour": "CD"},
-        {"type": "borders", "a": "LI", "b": "LU", "answer": "LU", "neighbour": "DE"},
-        {"type": "borders", "a": "PY", "b": "CL", "answer": "PY", "neighbour": "BR"},
-        {"type": "borders", "a": "DJ", "b": "CF", "answer": "CF", "neighbour": "SS"},
-        {"type": "borders", "a": "MR", "b": "ML", "answer": "ML", "neighbour": "CI"}
+        {"type": "area", "a": "PT", "b": "UG", "answer": "UG"},
+        {"type": "population", "a": "IS", "b": "CY", "answer": "CY"},
+        {"type": "area", "a": "CZ", "b": "TN", "answer": "TN"},
+        {"type": "population", "a": "NG", "b": "CN", "answer": "CN"},
+        {"type": "population", "a": "IL", "b": "KZ", "answer": "KZ"},
+        {"type": "area", "a": "AT", "b": "NI", "answer": "NI"},
+        {"type": "area", "a": "NR", "b": "MH", "answer": "MH"},
+        {"type": "area", "a": "BO", "b": "TR", "answer": "BO"},
+        {"type": "population", "a": "CL", "b": "CI", "answer": "CI"},
+        {"type": "population", "a": "JM", "b": "BH", "answer": "JM"}
       ]
     },
     "2028-02-18": {
       "theme": "flags",
       "questions": [
-        {"type": "flag", "a": "PE", "b": "KP", "answer": "KP"},
-        {"type": "flag", "a": "KZ", "b": "SM", "answer": "KZ"},
-        {"type": "flag", "a": "PT", "b": "PL", "answer": "PT"},
-        {"type": "flag", "a": "GY", "b": "BA", "answer": "BA"},
-        {"type": "flag", "a": "HU", "b": "LK", "answer": "LK"},
-        {"type": "flag", "a": "PY", "b": "SC", "answer": "PY"},
-        {"type": "flag", "a": "PW", "b": "TO", "answer": "PW"},
-        {"type": "flag", "a": "DZ", "b": "GH", "answer": "GH"},
-        {"type": "flag", "a": "MM", "b": "BH", "answer": "BH"},
-        {"type": "flag", "a": "MW", "b": "ZM", "answer": "ZM"}
+        {"type": "flag", "a": "SC", "b": "DO", "answer": "DO"},
+        {"type": "flag", "a": "IL", "b": "RW", "answer": "IL"},
+        {"type": "flag", "a": "EG", "b": "KP", "answer": "EG"},
+        {"type": "flag", "a": "WS", "b": "LU", "answer": "LU"},
+        {"type": "flag", "a": "MV", "b": "NA", "answer": "NA"},
+        {"type": "flag", "a": "VE", "b": "TH", "answer": "VE"},
+        {"type": "flag", "a": "NR", "b": "SB", "answer": "NR"},
+        {"type": "flag", "a": "TM", "b": "TJ", "answer": "TJ"},
+        {"type": "flag", "a": "AG", "b": "GD", "answer": "GD"},
+        {"type": "flag", "a": "TO", "b": "MH", "answer": "MH"}
       ]
     },
     "2028-02-19": {
-      "theme": "africa",
+      "theme": "asia",
       "questions": [
-        {"type": "flag", "a": "KE", "b": "MA", "answer": "KE"},
-        {"type": "borders", "a": "NA", "b": "ZA", "answer": "ZA", "neighbour": "MZ"},
-        {"type": "capital", "a": "UG", "b": "LR", "answer": "UG"},
-        {"type": "flag", "a": "RW", "b": "CV", "answer": "RW"},
-        {"type": "area", "a": "SC", "b": "ST", "answer": "ST"},
-        {"type": "area", "a": "BJ", "b": "TG", "answer": "BJ"},
-        {"type": "population", "a": "TZ", "b": "EG", "answer": "EG"},
-        {"type": "population", "a": "TD", "b": "GH", "answer": "GH"},
-        {"type": "capital", "a": "GN", "b": "MW", "answer": "MW"},
-        {"type": "borders", "a": "KM", "b": "DJ", "answer": "DJ", "neighbour": "SO"}
+        {"type": "borders", "a": "YE", "b": "KR", "answer": "KR", "neighbour": "KP"},
+        {"type": "flag", "a": "IR", "b": "TH", "answer": "TH"},
+        {"type": "flag", "a": "SY", "b": "AU", "answer": "SY"},
+        {"type": "borders", "a": "MN", "b": "IQ", "answer": "MN", "neighbour": "CN"},
+        {"type": "population", "a": "AE", "b": "LK", "answer": "LK"},
+        {"type": "capital", "a": "BT", "b": "BD", "answer": "BT"},
+        {"type": "capital", "a": "MV", "b": "BN", "answer": "MV"},
+        {"type": "capital", "a": "KH", "b": "AZ", "answer": "KH"},
+        {"type": "population", "a": "JO", "b": "TL", "answer": "JO"},
+        {"type": "area", "a": "SG", "b": "PW", "answer": "SG"}
       ]
     },
     "2028-02-20": {
       "theme": "hard",
       "questions": [
-        {"type": "flag", "a": "NE", "b": "CD", "answer": "CD"},
-        {"type": "area", "a": "TD", "b": "VE", "answer": "TD"},
-        {"type": "capital", "a": "EE", "b": "LV", "answer": "EE"},
-        {"type": "area", "a": "MH", "b": "MV", "answer": "MV"},
-        {"type": "borders", "a": "RU", "b": "GE", "answer": "RU", "neighbour": "CN"},
-        {"type": "population", "a": "NL", "b": "DO", "answer": "NL"},
-        {"type": "capital", "a": "BF", "b": "TN", "answer": "BF"},
-        {"type": "population", "a": "DM", "b": "TO", "answer": "TO"},
-        {"type": "borders", "a": "DZ", "b": "MU", "answer": "DZ", "neighbour": "ML"},
-        {"type": "flag", "a": "UZ", "b": "TJ", "answer": "TJ"}
+        {"type": "population", "a": "KG", "b": "HR", "answer": "KG"},
+        {"type": "population", "a": "CU", "b": "ZM", "answer": "ZM"},
+        {"type": "area", "a": "KW", "b": "FM", "answer": "KW"},
+        {"type": "flag", "a": "SI", "b": "MK", "answer": "MK"},
+        {"type": "area", "a": "DM", "b": "SB", "answer": "SB"},
+        {"type": "capital", "a": "SO", "b": "AO", "answer": "SO"},
+        {"type": "flag", "a": "EC", "b": "PY", "answer": "EC"},
+        {"type": "capital", "a": "BZ", "b": "KN", "answer": "KN"},
+        {"type": "borders", "a": "LT", "b": "SK", "answer": "LT", "neighbour": "BY"},
+        {"type": "borders", "a": "DZ", "b": "BI", "answer": "DZ", "neighbour": "NE"}
       ]
     },
     "2028-02-21": {
       "theme": "mix",
       "questions": [
-        {"type": "population", "a": "KP", "b": "DK", "answer": "KP"},
-        {"type": "area", "a": "HT", "b": "CZ", "answer": "CZ"},
-        {"type": "capital", "a": "FI", "b": "MT", "answer": "FI"},
-        {"type": "flag", "a": "TH", "b": "GT", "answer": "GT"},
-        {"type": "area", "a": "MY", "b": "NG", "answer": "NG"},
-        {"type": "borders", "a": "BR", "b": "AR", "answer": "BR", "neighbour": "PE"},
-        {"type": "capital", "a": "NP", "b": "JO", "answer": "JO"},
-        {"type": "population", "a": "MZ", "b": "ZW", "answer": "MZ"},
-        {"type": "borders", "a": "NA", "b": "GA", "answer": "NA", "neighbour": "AO"},
-        {"type": "flag", "a": "KW", "b": "BN", "answer": "KW"}
+        {"type": "flag", "a": "KH", "b": "SD", "answer": "KH"},
+        {"type": "capital", "a": "CA", "b": "ES", "answer": "ES"},
+        {"type": "borders", "a": "CZ", "b": "TZ", "answer": "CZ", "neighbour": "DE"},
+        {"type": "area", "a": "CI", "b": "GR", "answer": "CI"},
+        {"type": "borders", "a": "SZ", "b": "LS", "answer": "SZ", "neighbour": "MZ"},
+        {"type": "flag", "a": "VU", "b": "WS", "answer": "WS"},
+        {"type": "population", "a": "OM", "b": "LC", "answer": "OM"},
+        {"type": "flag", "a": "TM", "b": "UZ", "answer": "TM"},
+        {"type": "area", "a": "KP", "b": "BY", "answer": "BY"},
+        {"type": "capital", "a": "ST", "b": "ER", "answer": "ER"}
       ]
     },
     "2028-02-22": {
       "theme": "capitals",
       "questions": [
-        {"type": "capital", "a": "CO", "b": "ID", "answer": "ID"},
-        {"type": "capital", "a": "BS", "b": "AE", "answer": "BS"},
-        {"type": "capital", "a": "IT", "b": "CU", "answer": "CU"},
-        {"type": "capital", "a": "AU", "b": "NZ", "answer": "AU"},
-        {"type": "capital", "a": "TM", "b": "PG", "answer": "PG"},
-        {"type": "capital", "a": "KP", "b": "IN", "answer": "KP"},
-        {"type": "capital", "a": "LC", "b": "BZ", "answer": "BZ"},
-        {"type": "capital", "a": "GM", "b": "VU", "answer": "GM"},
-        {"type": "capital", "a": "BI", "b": "MH", "answer": "MH"},
-        {"type": "capital", "a": "BA", "b": "AL", "answer": "BA"}
+        {"type": "capital", "a": "LR", "b": "BA", "answer": "BA"},
+        {"type": "capital", "a": "FJ", "b": "NP", "answer": "FJ"},
+        {"type": "capital", "a": "IT", "b": "MA", "answer": "MA"},
+        {"type": "capital", "a": "SN", "b": "DK", "answer": "DK"},
+        {"type": "capital", "a": "KE", "b": "ZA", "answer": "KE"},
+        {"type": "capital", "a": "PE", "b": "UY", "answer": "UY"},
+        {"type": "capital", "a": "WS", "b": "MM", "answer": "WS"},
+        {"type": "capital", "a": "SD", "b": "CD", "answer": "SD"},
+        {"type": "capital", "a": "CM", "b": "RW", "answer": "RW"},
+        {"type": "capital", "a": "TJ", "b": "GE", "answer": "TJ"}
       ]
     },
     "2028-02-23": {
-      "theme": "numbers",
+      "theme": "africa",
       "questions": [
-        {"type": "area", "a": "BG", "b": "JM", "answer": "BG"},
-        {"type": "population", "a": "FJ", "b": "AL", "answer": "AL"},
-        {"type": "area", "a": "MZ", "b": "KH", "answer": "MZ"},
-        {"type": "population", "a": "NA", "b": "CY", "answer": "NA"},
-        {"type": "population", "a": "MK", "b": "LT", "answer": "LT"},
-        {"type": "population", "a": "ET", "b": "ID", "answer": "ID"},
-        {"type": "area", "a": "LI", "b": "GD", "answer": "GD"},
-        {"type": "population", "a": "OM", "b": "AE", "answer": "AE"},
-        {"type": "area", "a": "CV", "b": "BN", "answer": "BN"},
-        {"type": "area", "a": "TV", "b": "NR", "answer": "TV"}
+        {"type": "flag", "a": "BW", "b": "TD", "answer": "BW"},
+        {"type": "area", "a": "KE", "b": "TN", "answer": "KE"},
+        {"type": "capital", "a": "BF", "b": "MZ", "answer": "MZ"},
+        {"type": "borders", "a": "ET", "b": "NG", "answer": "NG", "neighbour": "CM"},
+        {"type": "flag", "a": "MG", "b": "TZ", "answer": "TZ"},
+        {"type": "flag", "a": "CV", "b": "CF", "answer": "CV"},
+        {"type": "borders", "a": "MW", "b": "LS", "answer": "MW", "neighbour": "ZM"},
+        {"type": "capital", "a": "TG", "b": "DJ", "answer": "TG"},
+        {"type": "area", "a": "EG", "b": "LY", "answer": "LY"},
+        {"type": "population", "a": "ML", "b": "MA", "answer": "MA"}
       ]
     },
     "2028-02-24": {
       "theme": "borders",
       "questions": [
-        {"type": "borders", "a": "QA", "b": "SO", "answer": "SO", "neighbour": "ET"},
-        {"type": "borders", "a": "KE", "b": "BW", "answer": "KE", "neighbour": "TZ"},
-        {"type": "borders", "a": "UY", "b": "BO", "answer": "BO", "neighbour": "PE"},
-        {"type": "borders", "a": "HR", "b": "SA", "answer": "HR", "neighbour": "RS"},
-        {"type": "borders", "a": "BD", "b": "TJ", "answer": "TJ", "neighbour": "AF"},
-        {"type": "borders", "a": "LB", "b": "IR", "answer": "IR", "neighbour": "IQ"},
-        {"type": "borders", "a": "TR", "b": "FI", "answer": "FI", "neighbour": "RU"},
-        {"type": "borders", "a": "CR", "b": "PA", "answer": "CR", "neighbour": "NI"},
-        {"type": "borders", "a": "TL", "b": "TH", "answer": "TL", "neighbour": "ID"},
-        {"type": "borders", "a": "EC", "b": "GY", "answer": "GY", "neighbour": "BR"}
+        {"type": "borders", "a": "RU", "b": "HR", "answer": "HR", "neighbour": "HU"},
+        {"type": "borders", "a": "DO", "b": "CR", "answer": "DO", "neighbour": "HT"},
+        {"type": "borders", "a": "IN", "b": "ZA", "answer": "ZA", "neighbour": "BW"},
+        {"type": "borders", "a": "UG", "b": "NA", "answer": "UG", "neighbour": "TZ"},
+        {"type": "borders", "a": "OM", "b": "QA", "answer": "OM", "neighbour": "AE"},
+        {"type": "borders", "a": "PG", "b": "JP", "answer": "PG", "neighbour": "ID"},
+        {"type": "borders", "a": "FR", "b": "BE", "answer": "FR", "neighbour": "IT"},
+        {"type": "borders", "a": "GW", "b": "UY", "answer": "UY", "neighbour": "BR"},
+        {"type": "borders", "a": "CA", "b": "GT", "answer": "GT", "neighbour": "MX"},
+        {"type": "borders", "a": "GM", "b": "SN", "answer": "SN", "neighbour": "ML"}
       ]
     },
     "2028-02-25": {
       "theme": "flags",
       "questions": [
-        {"type": "flag", "a": "MA", "b": "GR", "answer": "MA"},
-        {"type": "flag", "a": "MX", "b": "CL", "answer": "CL"},
-        {"type": "flag", "a": "PH", "b": "ZA", "answer": "ZA"},
-        {"type": "flag", "a": "EE", "b": "AT", "answer": "EE"},
-        {"type": "flag", "a": "VN", "b": "IL", "answer": "IL"},
-        {"type": "flag", "a": "DO", "b": "TT", "answer": "DO"},
-        {"type": "flag", "a": "GM", "b": "GW", "answer": "GM"},
-        {"type": "flag", "a": "SV", "b": "BB", "answer": "SV"},
-        {"type": "flag", "a": "WS", "b": "TO", "answer": "TO"},
-        {"type": "flag", "a": "ME", "b": "LT", "answer": "LT"}
+        {"type": "flag", "a": "CL", "b": "MT", "answer": "CL"},
+        {"type": "flag", "a": "RO", "b": "SK", "answer": "SK"},
+        {"type": "flag", "a": "MY", "b": "PT", "answer": "PT"},
+        {"type": "flag", "a": "DE", "b": "PL", "answer": "DE"},
+        {"type": "flag", "a": "KZ", "b": "BT", "answer": "BT"},
+        {"type": "flag", "a": "PA", "b": "SV", "answer": "PA"},
+        {"type": "flag", "a": "PW", "b": "GN", "answer": "PW"},
+        {"type": "flag", "a": "ME", "b": "BG", "answer": "ME"},
+        {"type": "flag", "a": "MU", "b": "ET", "answer": "ET"},
+        {"type": "flag", "a": "EE", "b": "SI", "answer": "SI"}
       ]
     },
     "2028-02-26": {
       "theme": "americas",
       "questions": [
-        {"type": "flag", "a": "VE", "b": "BO", "answer": "BO"},
-        {"type": "capital", "a": "UY", "b": "GT", "answer": "UY"},
-        {"type": "borders", "a": "US", "b": "AR", "answer": "US", "neighbour": "MX"},
-        {"type": "area", "a": "HT", "b": "JM", "answer": "HT"},
-        {"type": "area", "a": "CO", "b": "CL", "answer": "CO"},
-        {"type": "population", "a": "BB", "b": "VC", "answer": "BB"},
-        {"type": "flag", "a": "DM", "b": "LC", "answer": "LC"},
-        {"type": "borders", "a": "SR", "b": "PY", "answer": "SR", "neighbour": "GY"},
-        {"type": "population", "a": "GD", "b": "AG", "answer": "GD"},
-        {"type": "capital", "a": "BZ", "b": "PA", "answer": "PA"}
+        {"type": "area", "a": "BS", "b": "VE", "answer": "VE"},
+        {"type": "capital", "a": "DO", "b": "BB", "answer": "DO"},
+        {"type": "population", "a": "PE", "b": "MX", "answer": "MX"},
+        {"type": "borders", "a": "AR", "b": "PA", "answer": "PA", "neighbour": "CO"},
+        {"type": "capital", "a": "LC", "b": "TT", "answer": "LC"},
+        {"type": "capital", "a": "GT", "b": "JM", "answer": "GT"},
+        {"type": "borders", "a": "BZ", "b": "NI", "answer": "NI", "neighbour": "HN"},
+        {"type": "flag", "a": "VC", "b": "AG", "answer": "VC"},
+        {"type": "flag", "a": "DM", "b": "GD", "answer": "DM"},
+        {"type": "population", "a": "UY", "b": "SR", "answer": "UY"}
       ]
     },
     "2028-02-27": {
       "theme": "hard",
       "questions": [
-        {"type": "capital", "a": "CG", "b": "CF", "answer": "CF"},
-        {"type": "capital", "a": "YE", "b": "LR", "answer": "LR"},
-        {"type": "population", "a": "BZ", "b": "ST", "answer": "BZ"},
-        {"type": "area", "a": "MG", "b": "ML", "answer": "ML"},
-        {"type": "flag", "a": "BT", "b": "AM", "answer": "AM"},
-        {"type": "flag", "a": "BB", "b": "CM", "answer": "BB"},
-        {"type": "borders", "a": "AR", "b": "EC", "answer": "AR", "neighbour": "BR"},
-        {"type": "area", "a": "AD", "b": "KN", "answer": "AD"},
-        {"type": "population", "a": "AG", "b": "DM", "answer": "AG"},
-        {"type": "borders", "a": "GQ", "b": "NG", "answer": "NG", "neighbour": "TD"}
+        {"type": "flag", "a": "LV", "b": "HU", "answer": "HU"},
+        {"type": "borders", "a": "BA", "b": "AL", "answer": "BA", "neighbour": "RS"},
+        {"type": "capital", "a": "BJ", "b": "GN", "answer": "GN"},
+        {"type": "population", "a": "ET", "b": "TR", "answer": "ET"},
+        {"type": "population", "a": "HR", "b": "CF", "answer": "CF"},
+        {"type": "area", "a": "IQ", "b": "GB", "answer": "IQ"},
+        {"type": "capital", "a": "SV", "b": "DM", "answer": "DM"},
+        {"type": "borders", "a": "MD", "b": "GE", "answer": "GE", "neighbour": "RU"},
+        {"type": "area", "a": "SA", "b": "NE", "answer": "SA"},
+        {"type": "flag", "a": "TL", "b": "AM", "answer": "TL"}
       ]
     },
     "2028-02-28": {
       "theme": "mix",
       "questions": [
-        {"type": "flag", "a": "PE", "b": "RO", "answer": "PE"},
-        {"type": "population", "a": "MN", "b": "CH", "answer": "CH"},
-        {"type": "borders", "a": "CD", "b": "CI", "answer": "CD", "neighbour": "AO"},
-        {"type": "population", "a": "UG", "b": "SY", "answer": "UG"},
-        {"type": "borders", "a": "AF", "b": "SG", "answer": "AF", "neighbour": "IR"},
-        {"type": "area", "a": "SB", "b": "SZ", "answer": "SB"},
-        {"type": "flag", "a": "ZM", "b": "SL", "answer": "SL"},
-        {"type": "area", "a": "CA", "b": "RU", "answer": "RU"},
-        {"type": "capital", "a": "TZ", "b": "LS", "answer": "TZ"},
-        {"type": "capital", "a": "PY", "b": "AZ", "answer": "PY"}
+        {"type": "capital", "a": "IQ", "b": "IS", "answer": "IQ"},
+        {"type": "flag", "a": "NO", "b": "ZW", "answer": "ZW"},
+        {"type": "area", "a": "EE", "b": "IL", "answer": "EE"},
+        {"type": "capital", "a": "PH", "b": "JP", "answer": "JP"},
+        {"type": "borders", "a": "KM", "b": "LY", "answer": "LY", "neighbour": "DZ"},
+        {"type": "population", "a": "LI", "b": "TN", "answer": "TN"},
+        {"type": "flag", "a": "AM", "b": "LA", "answer": "AM"},
+        {"type": "borders", "a": "CI", "b": "MR", "answer": "MR", "neighbour": "SN"},
+        {"type": "area", "a": "DJ", "b": "MC", "answer": "DJ"},
+        {"type": "capital", "a": "GQ", "b": "TD", "answer": "TD"}
       ]
     },
     "2028-02-29": {
       "theme": "capitals",
       "questions": [
-        {"type": "capital", "a": "SI", "b": "MA", "answer": "MA"},
-        {"type": "capital", "a": "RU", "b": "DE", "answer": "RU"},
-        {"type": "capital", "a": "BE", "b": "SE", "answer": "BE"},
-        {"type": "capital", "a": "ZA", "b": "PT", "answer": "ZA"},
-        {"type": "capital", "a": "SC", "b": "LY", "answer": "SC"},
-        {"type": "capital", "a": "NO", "b": "LU", "answer": "LU"},
-        {"type": "capital", "a": "SM", "b": "BJ", "answer": "SM"},
-        {"type": "capital", "a": "BH", "b": "TJ", "answer": "TJ"},
-        {"type": "capital", "a": "GH", "b": "BF", "answer": "GH"},
-        {"type": "capital", "a": "LV", "b": "MC", "answer": "MC"}
+        {"type": "capital", "a": "IE", "b": "EG", "answer": "EG"},
+        {"type": "capital", "a": "CN", "b": "AF", "answer": "CN"},
+        {"type": "capital", "a": "UA", "b": "IR", "answer": "UA"},
+        {"type": "capital", "a": "KW", "b": "CH", "answer": "KW"},
+        {"type": "capital", "a": "SC", "b": "AO", "answer": "AO"},
+        {"type": "capital", "a": "AM", "b": "MN", "answer": "AM"},
+        {"type": "capital", "a": "BD", "b": "NP", "answer": "NP"},
+        {"type": "capital", "a": "SS", "b": "ER", "answer": "SS"},
+        {"type": "capital", "a": "HT", "b": "BS", "answer": "BS"},
+        {"type": "capital", "a": "BH", "b": "AZ", "answer": "AZ"}
       ]
     }
   }
